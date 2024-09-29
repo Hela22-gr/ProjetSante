@@ -1,0 +1,38 @@
+urlApp: "http://localhost:4200/verify/"
+
+spring:
+#  config:
+#    import: optional:configserver:http://localhost:8888/email-service
+#  cloud:
+#    config:
+#      profile: dev
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: elgareshela@gmail.com
+    password: gerrzhvnwfupwpvy
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
+          quitwait: true
+
+
+  application:
+    name: Email_Service
+
+eureka :
+  instance:
+    client:
+      serviceUrl:
+        defaultZone: http://localhost:8761/
+
+
+
+
+#  Server configuration
+server:
+  port: 8086

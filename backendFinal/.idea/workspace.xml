@@ -13,8 +13,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServerSanteVista/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configServerSanteVista/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServerSanteVista/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configServerSanteVista/src/main/resources/application-prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     "Spring Boot.ConfigServerApplication.executor": "Run",
     "Spring Boot.EurekaServerApplication.executor": "Run",
     "Spring Boot.GatewayServiceApplication.executor": "Run",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/elgar/Documents/GitHub/ProjetSante/backendFinal",
     "node.js.detected.package.eslint": "true",
@@ -118,7 +116,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727644719234</updated>
-      <workItem from="1727644720302" duration="745000" />
+      <workItem from="1727644720302" duration="1365000" />
     </task>
     <servers />
   </component>
