@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eurekaSanteVista
+  config:
+    import: optional:configserver:http://localhost:8888/eurekaSanteVista
+  cloud:
+    config:
+      profile: dev

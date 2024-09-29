@@ -1,0 +1,20 @@
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'
+server:
+    port: 8888
+spring:
+    application:
+        name: config-service
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/jroua/config-server-ia.git
+                    username: AzaiezAbdessalem
+                    password: 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
+                    clone-on-start: true
+                    skipSslValidation: true
+                    default-label: main
