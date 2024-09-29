@@ -1,0 +1,26 @@
+.button{
+    gap: 8px;
+    border-color: #9cdc47;
+    display: inline-flex;
+    height: 36px;
+    align-items: center;
+    padding: 8px;
+    position: relative;
+    border-radius: 4px;
+    border: 1px solid;
+    box-shadow: var(--shadow-light);
+    color: #9cdc47;
+    background-color: white; /* Fond blanc pour le bouton */
+  }
+  .regimeList {
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: 150px;
+    
+}
+
+.regimeList .section-title h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
